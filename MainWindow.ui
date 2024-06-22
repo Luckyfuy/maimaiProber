@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>maimai查分器</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QRadioButton" name="qqButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>95</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>QQ</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup1</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="usernameButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>95</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>用户名</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup1</string>
+    </attribute>
+   </widget>
+   <widget class="QLineEdit" name="qq">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>40</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="username">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>80</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="b40">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>30</y>
+      <width>95</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>b40</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup2</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="b50">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>70</y>
+      <width>95</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>b50</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup2</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="generate">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>160</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>生成</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup1"/>
+  <buttongroup name="buttonGroup2"/>
+ </buttongroups>
+</ui>

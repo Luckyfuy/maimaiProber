@@ -1,5 +1,17 @@
-src/static
-.idea
-.code
-venv
-__pycache__
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Environments
+venv/
+
+# Static files
+static/
+static2/
+
+# Nuitka
+main.build/
+main.dist/
+main.onefile-build/
+*.exe
+
+*.png
